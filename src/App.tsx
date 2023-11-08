@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import { OneLesson } from './1_lesson/OneLesson';
 import { TwoLesson } from './2_lesson/TwoLesson';
+import { ButtonBig } from './03_lesson/ButtonBig';
+import { ThreeLesson } from './03_lesson/03_lesson';
 
 
 export type PropsType = {
@@ -17,7 +19,8 @@ function App() {
   return (
     <div className="App">
       {/* <OneLesson /> */}
-      <TwoLesson />
+      {/* <TwoLesson /> */}
+      <ThreeLesson />
     </div>
   );
 }
