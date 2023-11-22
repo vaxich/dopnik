@@ -6,6 +6,7 @@ import { TwoLesson } from './2_lesson/TwoLesson';
 import { ButtonBig } from './03_lesson/ButtonBig';
 import { ThreeLesson } from './03_lesson/03_lesson';
 import { FourLesson } from './4_lesson/FourLesson';
+import { FiveLesson } from './5_lesson/5_lesson';
 
 
 export type PropsType = {
@@ -22,7 +23,8 @@ function App() {
       {/* <OneLesson /> */}
       {/* <TwoLesson /> */}
       {/* <ThreeLesson /> */}
-      <FourLesson />
+      {/* <FourLesson /> */}
+      <FiveLesson />
     </div>
   );
 }
